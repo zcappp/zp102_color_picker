@@ -5,7 +5,7 @@ module.exports = {
     mode: process.env.mode || "development",
     devtool: false,
     entry: {
-        "zp102": "./plugins/zp102_color_picker.js",
+        "zp102": "./src/zp102_color_picker.js",
     },
     output: {
         path: path.join(__dirname, "build/"),
